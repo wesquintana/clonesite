@@ -10,8 +10,101 @@
       integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
       crossorigin="anonymous"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css"
+      integrity="sha256-+N4/V/SbAFiW1MPBCXnfnP9QSN3+Keu+NlB+0ev/YKQ="
+      crossorigin="anonymous"
+    />
     <link rel="stylesheet" href="style.css" />
-    <title>Document</title>
+    <title>Clonesite</title>
   </head>
-  <body></body>
+  <body>
+    <header></header>
+    <main>
+      <div class="container-fluid">
+        
+          <div class="row row1 d-flex">
+            <div class=" descrip text-white col-3 offset-2">
+              <h3>Cgp.grey</h3>
+              <p>
+                Turn your bees into your best friend. Make every hot-drop
+                count.
+              </p>
+              <button class="btn btn-primary" type="button">
+                <strong>GET IT</strong>
+            </div>
+          </div>
+        </div>
+          <div class="row text-white d-flex justify-content-center text-center bg-primary give-me-space" >
+            <div class=" offset-lg-2 col-lg-2 col-sm-6"><h1><i class="far fa-edit"></i></h1><h3>Synergy</h3><p>Synergize your workflow with dynamic user-client system solutions</p></div>
+            <div class="col-lg-2 col-sm-6"><h1><i class="fas fa-calendar-day"></i></h1><h3>Synergy</h3><p>Synergize your workflow with dynamic user-client system solutions</p></div>
+            <div class="col-lg-2 col-sm-6"><h1><i class="fas fa-chart-pie"></i></h1><h3>Synergy</h3><p>Synergize your workflow with dynamic user-client system solutions</p></div>
+            <div class=" col-lg-2 col-sm-6"><h1><i class="fab fa-discord"></i></h1><h3>Synergy</h3><p>Synergize your workflow with dynamic user-client system solutions</p></div>
+            <div class="col-lg-2"></div>
+          </div>
+        <div class="row give-me-space">
+          <div class="col text-black justify-content-center text-center">
+            <h4>Get news from Grey</h4>
+            <p>Leave me your email and get CGP Grey news</p>
+            <form>
+              <input type="email" name="email" id="email" class="p-0"/>
+              <input type="button" value="Subscribe" class="btn btn-primary btn-sm" id="subscribe"/>
+            </form>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col d-flex justify-content-center">
+            <div class="mapouter">
+              <div class="gmap_canvas">
+                <iframe
+                  width="100%"
+                  height="100%"
+                  id="gmap_canvas"
+                  src="https://maps.google.com/maps?q=codeworks&t=&z=9&ie=UTF8&iwloc=&output=embed"
+                  frameborder="0"
+                  scrolling="no"
+                  marginheight="0"
+                  marginwidth="0"
+                ></iframe
+                >Google Maps Generator by
+                <a href="https://www.embedgooglemap.net">embedgooglemap.net</a>
+              </div>
+              <style>
+                .mapouter {
+                  position: relative;
+                  text-align: right;
+                  height: 400px;
+                  width: 100vw;
+                }
+                .gmap_canvas {
+                  overflow: hidden;
+                  background: none !important;
+                  height: 400px;
+                  width: 100vw;
+                }
+              </style>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <div class="container">
+        <div class="row text-center text-white ">
+          <div class="col-md-6 col-sm-12">
+            <ol class="list-inline d-inline-flex align-items-center">
+              <li class="list-inline-item">
+                <h3><i class="fab fa-youtube"></i></h3>
+              </li>
+              <li class="list-inline-item"><h3><i class="fab fa-instagram"></i></h3></li>
+              <li class="list-inline-item"><h3><i class="fab fa-facebook"></i></h3></li>
+              <li class="list-inline-item"><h3><i class="fab fa-twitter"></i></h3></li>
+            </ol>
+          </div>
+          <div class="col-md-6 col-sm-12 d-inline-flex align-items-center"><p id="footer-p">While CGP Grey is a real person, this is a fake website by Wesley Quintana</p></div>
+        </div>
+      </div>
+    </footer>
+  </body>
 </html>

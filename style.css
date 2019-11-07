@@ -1,0 +1,38 @@
+footer {
+  min-height: 10vh;
+  background-color: rgb(20, 20, 20);
+}
+.row1 {
+  height: 100vh;
+  background: url("https://i.vimeocdn.com/video/702953317.jpg?mw=1920&mh=1080&q=70")
+    center;
+  background-size: cover;
+}
+.descrip {
+  margin-top: 80px;
+  text-shadow: 1px 1px black;
+  align-self: center;
+}
+.give-me-space {
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+}
+.small-text {
+  font-size: small;
+}
+#email {
+  border-radius: 0.2rem;
+  border-width: 0.1rem;
+}
+#subscribe {
+  line-height: 1rem;
+  display: inline-flex;
+  vertical-align: top;
+}
+ol li {
+  padding: 25px 25px 0 0;
+}
+#footer-p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: small;
+}
